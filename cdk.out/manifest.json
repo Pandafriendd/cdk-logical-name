@@ -1,0 +1,152 @@
+{
+  "version": "5.0.0",
+  "artifacts": {
+    "Tree": {
+      "type": "cdk:tree",
+      "properties": {
+        "file": "tree.json"
+      }
+    },
+    "CdkResourceLogicalNameStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "CdkResourceLogicalNameStack.template.json"
+      },
+      "metadata": {
+        "/CdkResourceLogicalNameStack/testRole22/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "testRole22296F2086",
+            "trace": [
+              "new Role (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "new CdkResourceLogicalNameStack (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/lib/cdk-resource-logical-name-stack.ts:11:25)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/bin/cdk-resource-logical-name.ts:25:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Module.m._compile (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "main (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ],
+        "/CdkResourceLogicalNameStack/testRole777/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "testRole7777D1377AA",
+            "trace": [
+              "new Role (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "new CdkResourceLogicalNameStack (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/lib/cdk-resource-logical-name-stack.ts:17:25)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/bin/cdk-resource-logical-name.ts:25:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Module.m._compile (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "main (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ]
+      }
+    },
+    "MyStack": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "MyStack.template.json"
+      },
+      "metadata": {
+        "/MyStack/testRole777/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "testRole7777D1377AA",
+            "trace": [
+              "new Role (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "new MyStack (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/bin/cdk-resource-logical-name.ts:10:27)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/bin/cdk-resource-logical-name.ts:26:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Module.m._compile (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "main (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ]
+      }
+    },
+    "MyStack2": {
+      "type": "aws:cloudformation:stack",
+      "environment": "aws://unknown-account/unknown-region",
+      "properties": {
+        "templateFile": "MyStack2.template.json"
+      },
+      "metadata": {
+        "/MyStack2/testRole777/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "testRole7777D1377AA",
+            "trace": [
+              "new Role (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/@aws-cdk/aws-iam/lib/role.ts:327:18)",
+              "new MyStack (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/bin/cdk-resource-logical-name.ts:10:27)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/bin/cdk-resource-logical-name.ts:27:1)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Module.m._compile (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:858:23)",
+              "Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Object.require.extensions.<computed> [as .ts] (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/index.ts:861:12)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "main (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:227:14)",
+              "Object.<anonymous> (/Users/lizhiyua/lizhiyuan/cdk-resource-logical-name/node_modules/ts-node/src/bin.ts:513:3)",
+              "Module._compile (internal/modules/cjs/loader.js:1157:30)",
+              "Object.Module._extensions..js (internal/modules/cjs/loader.js:1177:10)",
+              "Module.load (internal/modules/cjs/loader.js:1001:32)",
+              "Function.Module._load (internal/modules/cjs/loader.js:900:14)",
+              "Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)",
+              "/usr/local/lib/node_modules/npm/node_modules/libnpx/index.js:268:14"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "runtime": {
+    "libraries": {
+      "@aws-cdk/core": "1.70.0",
+      "@aws-cdk/cx-api": "1.70.0",
+      "@aws-cdk/cloud-assembly-schema": "1.70.0",
+      "@aws-cdk/aws-iam": "1.70.0",
+      "@aws-cdk/region-info": "1.70.0",
+      "jsii-runtime": "node.js/v12.16.0"
+    }
+  }
+}

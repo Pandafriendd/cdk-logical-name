@@ -1,0 +1,143 @@
+{
+  "version": "tree-0.1",
+  "tree": {
+    "id": "App",
+    "path": "",
+    "children": {
+      "Tree": {
+        "id": "Tree",
+        "path": "Tree"
+      },
+      "CdkResourceLogicalNameStack": {
+        "id": "CdkResourceLogicalNameStack",
+        "path": "CdkResourceLogicalNameStack",
+        "children": {
+          "testRole22": {
+            "id": "testRole22",
+            "path": "CdkResourceLogicalNameStack/testRole22",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "CdkResourceLogicalNameStack/testRole22/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                  "aws:cdk:cloudformation:props": {
+                    "assumeRolePolicyDocument": {
+                      "Statement": [
+                        {
+                          "Action": "sts:AssumeRole",
+                          "Effect": "Allow",
+                          "Principal": {
+                            "Service": "sns.amazonaws.com"
+                          }
+                        }
+                      ],
+                      "Version": "2012-10-17"
+                    },
+                    "roleName": "myName1"
+                  }
+                }
+              }
+            }
+          },
+          "testRole777": {
+            "id": "testRole777",
+            "path": "CdkResourceLogicalNameStack/testRole777",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "CdkResourceLogicalNameStack/testRole777/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                  "aws:cdk:cloudformation:props": {
+                    "assumeRolePolicyDocument": {
+                      "Statement": [
+                        {
+                          "Action": "sts:AssumeRole",
+                          "Effect": "Allow",
+                          "Principal": {
+                            "Service": "sns.amazonaws.com"
+                          }
+                        }
+                      ],
+                      "Version": "2012-10-17"
+                    },
+                    "roleName": "myName2"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "MyStack": {
+        "id": "MyStack",
+        "path": "MyStack",
+        "children": {
+          "testRole777": {
+            "id": "testRole777",
+            "path": "MyStack/testRole777",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "MyStack/testRole777/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                  "aws:cdk:cloudformation:props": {
+                    "assumeRolePolicyDocument": {
+                      "Statement": [
+                        {
+                          "Action": "sts:AssumeRole",
+                          "Effect": "Allow",
+                          "Principal": {
+                            "Service": "sns.amazonaws.com"
+                          }
+                        }
+                      ],
+                      "Version": "2012-10-17"
+                    },
+                    "roleName": "myName3"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "MyStack2": {
+        "id": "MyStack2",
+        "path": "MyStack2",
+        "children": {
+          "testRole777": {
+            "id": "testRole777",
+            "path": "MyStack2/testRole777",
+            "children": {
+              "Resource": {
+                "id": "Resource",
+                "path": "MyStack2/testRole777/Resource",
+                "attributes": {
+                  "aws:cdk:cloudformation:type": "AWS::IAM::Role",
+                  "aws:cdk:cloudformation:props": {
+                    "assumeRolePolicyDocument": {
+                      "Statement": [
+                        {
+                          "Action": "sts:AssumeRole",
+                          "Effect": "Allow",
+                          "Principal": {
+                            "Service": "sns.amazonaws.com"
+                          }
+                        }
+                      ],
+                      "Version": "2012-10-17"
+                    },
+                    "roleName": "myName3"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

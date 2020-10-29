@@ -1,0 +1,46 @@
+{
+  "Resources": {
+    "testRole22296F2086": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "sns.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "RoleName": "myName1"
+      },
+      "Metadata": {
+        "aws:cdk:path": "CdkResourceLogicalNameStack/testRole22/Resource"
+      }
+    },
+    "testRole7777D1377AA": {
+      "Type": "AWS::IAM::Role",
+      "Properties": {
+        "AssumeRolePolicyDocument": {
+          "Statement": [
+            {
+              "Action": "sts:AssumeRole",
+              "Effect": "Allow",
+              "Principal": {
+                "Service": "sns.amazonaws.com"
+              }
+            }
+          ],
+          "Version": "2012-10-17"
+        },
+        "RoleName": "myName2"
+      },
+      "Metadata": {
+        "aws:cdk:path": "CdkResourceLogicalNameStack/testRole777/Resource"
+      }
+    }
+  }
+}
